@@ -1,0 +1,29 @@
+.icon-container {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    cursor: pointer;
+
+}
+
+#icon {
+
+    margin-right: 10px;
+    float: left;
+
+}
+
+#icon-text {
+
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 2px;
+
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+
+}
+
+#icon-text::selection { color: white }

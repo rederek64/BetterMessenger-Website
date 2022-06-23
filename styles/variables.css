@@ -1,0 +1,17 @@
+:root {
+    --background-light: #353535;
+    --background-primary: #303030;
+    --background-secondary: #252525;
+    --background-tertiary: #151515;
+    --red: #f04747;
+    --orange: #e19517;
+    --green: #3ba55c;
+    --blurple: #7289da;
+    --text-color: #efefef;
+    --text-dark: #aaa;
+    --red-t: #f0474720;
+    --orange-t: #e1951720;
+    --blurple-t: #7289da20;
+}
+
+/* Yes, colors are stolen from https://powercord.dev/, sorry I'm not a person who knows how to pick nice colors for a website. */
