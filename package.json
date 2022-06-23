@@ -4,7 +4,7 @@
   "description": "bettemessenger website lol",
   "main": "",
   "scripts": {
-    "build": "echo \"no build for u lol\" && exit 1"
+    "build": "node fake_build.js"
   },
   "repository": {
     "type": "git",
