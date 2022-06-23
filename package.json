@@ -4,7 +4,7 @@
   "description": "bettemessenger website lol",
   "main": "",
   "scripts": {
-    "build": "echo \"Error: no building\" && exit 1"
+    "build": "echo \"Error: no building\""
   },
   "repository": {
     "type": "git",
