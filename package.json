@@ -1,0 +1,22 @@
+{
+  "name": "bettermessenger-website",
+  "version": "1.0.0",
+  "description": "bettemessenger website lol",
+  "main": "",
+  "scripts": {
+    "build": "echo \"Error: no building\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rederek64/BetterMessenger-Website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "rederek64",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rederek64/BetterMessenger-Website/issues"
+  },
+  "homepage": "https://github.com/rederek64/BetterMessenger-Website#readme"
+}
