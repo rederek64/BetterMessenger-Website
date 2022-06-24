@@ -11,32 +11,288 @@
         <link rel="stylesheet" href="./styles/variables.css">
         <link rel="stylesheet" href="./styles/footer.css">
         <link rel="stylesheet" href="./styles/icon.css">
+        <link rel="stylesheet" href="./styles/box.css">
+        <link rel="stylesheet" href="./styles/navigator.css">
+        <link rel="stylesheet" href="./styles/title.css">
+        <link rel="stylesheet" href="./styles/downloadme.css">
         <script type="text/javascript" src="./scripts/main.js"></script>
 
         <!-- Icons and fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato&family=Poppins:wght@100;200&family=Roboto+Mono:ital,wght@0,200;0,700;1,200;1,700&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Fredoka+One&family=Lato&family=Poppins:ital,wght@0,100;0,200;0,400;1,300&family=Roboto+Mono:ital,wght@0,200;0,700;1,200;1,700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
         <!-- Meta Tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="better messenger, bettermessenger, messenger">
+        <meta name="title" content="BetterMessenger">
+        <meta name="description" content="Simple and lightweight Messenger client mod, which can provide you advanced experience with Messenger desktop app with plugins and themes etc">
+        
+        <!-- Open Graph / Facebook Meta Tags -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://bettermessenger.xyz/">
+        <meta property="og:title" content="BetterMessenger">
+        <meta property="og:description" content="Simple and lightweight Messenger client mod, which can provide you advanced experience with Messenger desktop app with plugins and themes etc">
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/989534802950619189/989955764921729055/Messenger_better_text.png">
+        
+        <!-- Twitter Meta Tags -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://bettermessenger.xyz/">
+        <meta property="twitter:title" content="BetterMessenger">
+        <meta property="twitter:description" content="Simple and lightweight Messenger client mod, which can provide you advanced experience with Messenger desktop app with plugins and themes etc">
+        <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/989534802950619189/989955764921729055/Messenger_better_text.png">
 
     </head>
 
     <body>
 
+        <!-- Icon -->
+
         <div class="icon-container">
+        
             <img draggable="false" id="icon" src="./assets/Messenger_better.png" height="50px">
             <p id="icon-text">BetterMessenger</p>
+        
         </div>
 
+        <!-- Navigator -->
+
+        <div class="container-nav">
+        
+            <nav class="navigator">
+
+                <a class="nav-ref" href="#faq">FAQ</a>
+                <a class="nav-ref" href="#contributors">Contributors</a>
+                <a class="nav-ref" href="#contact">Contact</a>
+                <a class="nav-ref" href="https://github.com/ztbw/Better-Messenger#install" target="_blank">Installation</a>
+                <a class="nav-ref" href="https://discord.gg/aUyuWvNCkA" target="_blank">Discord Server</a>
+                <a class="nav-ref" href="https://paypal.me/ztbw" target="_blank">Donate</a>
+            </nav>
+
+        </div>
+
+        <!-- Title -->
+
+        <div class="title-container">
+            <h1>Simple and lightweight Messenger client mod</h1>
+        </div>
+
+        <!-- Row 1 -->
+
+        <div class="container">
+        
+            <div class="box">
+
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <span class="box-icon">
+                                <span class="material-symbols-outlined md-48">
+                                    filter_vintage
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="box-title">
+                                <h2>Themes</h2>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="box-body">
+                                <p>Do you think that normal messenger app is so <br>boring? We too, so we've added them to our <br>app!</p>
+                            </span>
+                        </td>
+                    </tr>                    
+                    
+                </table>
+
+            </div>
+
+            <div class="box">
+
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <span class="box-icon">
+                                <span class="material-symbols-outlined md-48">
+                                    electrical_services
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="box-title">
+                                <h2>Plugins</h2>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="box-body">
+                                <p>Need to advance your messenger experience?<br>Just download a plugin or create one!</p>
+                            </span>
+                        </td>
+                    </tr>                    
+                    
+                </table>
+
+            </div>
+
+            <div class="box">
+
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <span class="box-icon">
+                                <span class="material-symbols-outlined md-48">
+                                    browser_updated
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="box-title">
+                                <h2>Built-in updater</h2>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="box-body">
+                                <p>You won't need to check our github page <br>everyday, our mod will ask you if you want to <br>update our mod to do that.</p>
+                            </span>
+                        </td>
+                    </tr>                    
+                    
+                </table>
+
+            </div>
+
+        </div>
+
+        <!-- Row 2 -->
+
+        <div class="container" id="container-bottom">
+            <div class="box">
+    
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <span class="box-icon">
+                                <span class="material-symbols-outlined md-48">
+                                        folder_open
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="box-title">
+                                <h2>Open source</h2>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="box-body">
+                                <p>No, that's not a RAT / keylogger / token logger <br>or anything else. That's just a legit Messenger <br>modification. You can check out its <a href="https://github.com/ztbw/Better-Messenger">source <br>code</a> by yourself!</p>
+                            </span>
+                        </td>
+                    </tr>                    
+                    
+                </table>
+
+            </div>
+
+            <div class="box">
+
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <span class="box-icon">
+                                <span class="material-symbols-outlined md-48">
+                                    quiz
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="box-title">
+                                <h2>Sample text</h2>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="box-body">
+                                <p>Some test text made only for template test <br>purposes.</p>
+                            </span>
+                        </td>
+                    </tr>                    
+                    
+                </table>
+
+            </div>
+
+            <div class="box">
+
+                <table>
+                    <tr>
+                        <td rowspan="2">
+                            <span class="box-icon">
+                                <span class="material-symbols-outlined md-48">
+                                    quiz
+                                </span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="box-title">
+                                <h2>Sample text</h2>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="box-body">
+                                <p>Some test text made only for template test <br>purposes.</p>
+                            </span>
+                        </td>
+                    </tr>                    
+                    
+                </table>
+
+            </div>
+
+        </div>
+
+        <!-- "Install me please!" Section -->
+
+        <div class="downloadme">
+
+            <h1>What are you waiting for!?</h1>
+            <h2>Make your Messenger better! <a href="/install">Install BetterMessenger</a></h2>
+
+        </div>
+
+        <!-- Footer -->
 
         <div class="footer">
-            <p id="container-text">© Copyright 2022 - ZTBW</p>
+            
+            <p id="container-text">Copyright © 2022 - ZTBW</p>
+            <p id="container-text">BetterMessenger is not affiliated or endorsed by Messenger. Messenger is a trademark of Meta.<br>Inspired by <a id="powercord-ref" href="https://powercord.dev/" target="_blank">Powercord</a></p>
+        
         </div>
-
 
     </body>
 

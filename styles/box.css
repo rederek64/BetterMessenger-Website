@@ -1,0 +1,56 @@
+.box {
+
+    border-radius: 5px;
+    
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 200px;
+
+    width: 470px;
+    height: 170px;
+    background-color: var(--background-secondary);
+
+}
+
+.box-icon,.box-title,.box-body {
+
+    color: white;
+    font-family: 'Poppins';
+
+}
+
+.box-icon {
+
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 20px;
+    width: 30px;
+
+}
+
+.box-title {
+
+    margin-left: 70px;
+    position: absolute;
+    margin-top: -30px;
+    
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+.box-body {
+
+    margin-left: 75px;
+    position: absolute;
+    margin-top: 30px;
+
+}
+
+.box-body a { color: #6e51ee }
+
+.md-48 { font-size: 48px !important }
+
+.md-48::selection {
+    background-color: none;
+}

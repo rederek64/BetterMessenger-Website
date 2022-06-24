@@ -1,4 +1,24 @@
 body {
+
     background-color:  var(--background-light);
     margin-top: 20px;
+
+    overflow-x: hidden;
+
 }
+
+.container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#container-bottom {
+
+    margin-left: 80px;
+    margin-top: -175px;
+
+}
+
+#powercord-ref { color: #442ee8 }

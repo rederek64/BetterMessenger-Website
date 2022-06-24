@@ -26,4 +26,4 @@
 
 }
 
-#icon-text::selection { color: white }
+#icon-text::selection { background-color: none; }
