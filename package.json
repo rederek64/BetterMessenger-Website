@@ -2,7 +2,7 @@
   "name": "bettermessenger-website",
   "version": "1.0.0",
   "description": "bettemessenger website lol",
-  "main": "",
+  "main": "fake_build.js",
   "scripts": {
     "build": "node fake_build.js"
   },
